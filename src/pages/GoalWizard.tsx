@@ -1,7 +1,7 @@
 import Step1 from "@/components/goalWizardSteps/Step1";
 import Step2 from "@/components/goalWizardSteps/Step2";
 import Step3 from "@/components/goalWizardSteps/Step3";
-import Step4 from "@/components/goalWizardSteps/Step4";
+// import Step4 from "@/components/goalWizardSteps/Step4";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { ArrowLeft, ArrowRight, Check } from "lucide-react";
@@ -112,7 +112,7 @@ const GoalWizard = () => {
       frequency={goalData.frequency}
       setFrequency={(v) => setGoalData({ ...goalData, frequency: v })}
     />,
-    <Step4 />,
+    // <Step4 />,
   ];
 
   return (
